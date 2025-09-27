@@ -9,3 +9,5 @@
 6. git checkout -b branch_name
 
 7. git clone url
+
+8. ref: https://learngitbranching.js.org/
