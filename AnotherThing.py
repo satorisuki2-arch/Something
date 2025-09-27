@@ -27,6 +27,7 @@ for i in range(1000):
     my_turtle.color(color)
     my_turtle.forward(i / 2)
     my_turtle.right(91)
+    something = my_turtle is None
     x = x + 1
     c = c + 0.1
 
