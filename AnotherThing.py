@@ -1,5 +1,6 @@
 import turtle
-#fghhmhvnvnnhhgmgmghghhgghm
+#YnEoS
+#FtArLuSeE
 
 screen = turtle.Screen()
 screen.bgcolor("black")
