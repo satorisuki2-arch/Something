@@ -71,8 +71,14 @@ Example:
 """
 
 def create_todo_list(tasks):
-    # Write your code here
-    pass
+    index = 0
+    f = open("my_tasks.txt", "w")
+    for task in tasks:
+        index +=1
+        content = str(index) + ". " + task + "\n"
+        f.writelines(content)
+    f.close()
+    return index
 
 
 # Test Question 3
@@ -95,12 +101,17 @@ Write a function called 'add_task(task)' that:
 
 def add_task(task):
     # Write your code here
-    pass
+    file = open("my_tasks.txt", "r+")
+    all_content = file.readlines()
+    line_count = len(all_content)
+    file.write(f"{line_count + 1}. {task}\n")
+    file.close()
+    print(f"Added task: {task}")
 
 
 # Test Question 4
 # Uncomment the lines below to test
-# add_task("Call mom")
+# add_task("Go for a walk")
 # add_task("Read a book")
 
 
@@ -136,9 +147,9 @@ Write a function called 'safe_write_file(filename, content)' that:
 """
 
 def safe_write_file(filename, content):
-    # Write your code here
-    pass
-
+    with open(filename, 'w') as file:
+        file.write(content)
+    print(f"Wrote to {filename}")
 
 # Test Question 6
 # Uncomment the lines below to test
