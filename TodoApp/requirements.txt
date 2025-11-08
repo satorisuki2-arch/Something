@@ -1,0 +1,23 @@
+# Todo App Requirements
+# This app uses only Python standard library modules
+
+# Required Python Version: 3.6+
+
+# Standard Library Modules Used:
+# - tkinter (GUI framework)
+# - datetime (timestamp handling)  
+# - os (file operations)
+# - csv (CSV export functionality)
+# - shutil (file backup operations)
+# - typing (type hints - optional)
+
+# No external dependencies required!
+# The app is designed to work with a standard Python installation.
+
+# Optional enhancements (not required):
+# - Pillow>=8.0.0  # For custom icons and images
+# - ttkthemes>=3.2.0  # For additional GUI themes
+
+# Development/Testing (optional):
+# - pytest>=6.0.0  # For unit testing
+# - black>=21.0.0  # For code formatting

@@ -1,0 +1,7 @@
+{
+  "theme": "dark",
+  "sound_enabled": true,
+  "always_on_top": false,
+  "snooze_duration": 5,
+  "format_24hr": true
+}
